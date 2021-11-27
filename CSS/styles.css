@@ -1,2 +1,331 @@
-/* Roboto  https://fonts.google.com/share?selection.family=Raleway:wght@700%7CRoboto:wght@400;500;700;900
-/* Raleway https://fonts.google.com/share?selection.family=Raleway:wght@700%7CRoboto:wght@400;500;700;900
+:root {
+  --text-logo: #2196f3;
+  --primery-font: 'Roboto', san-serif;
+  --secondary-font: 'Raleway', san-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+/*Вынесены общие стили*/
+
+html {
+  font-family: var(--primery-font);
+  font-style: normal;
+  font-weight: normal;
+  background: #e5e5e5;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Вынесены общие стили хэдэра*/
+
+.nav-boxes .box:hover,
+.adress-boxes .header-contact:hover {
+  color: #2196f3;
+}
+.nav-boxes .box:focus,
+.adress-boxes .header-contact:focus {
+  color: #2196f3;
+}
+/*.nav-boxes .box:active,
+.adress-boxes .header-contact:hover {
+  ;
+}*/
+
+.header .box,
+.logo,
+.header-contact {
+  position: absolute;
+  height: 16px;
+  top: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+/*Вынесены частные стили хэдэра*/
+
+.logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.logo > span {
+  color: #000000;
+}
+
+.first {
+  width: 49px;
+  left: 453px;
+}
+
+.second {
+  width: 77px;
+  left: 552px;
+}
+.third {
+  width: 68px;
+  left: 679px;
+}
+
+.mail {
+  width: 135px;
+  left: 1078px;
+  color: #757575;
+}
+
+.tel {
+  width: 122px;
+  left: 1263px;
+  color: #757575;
+}
+/*Конец стилей хэдэра*/
+
+/*div в файле index*/
+.big-box {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+
+.heading-first {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.order-button {
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+/*Конец div в файле index*/
+
+/*Вынесены общие стили кнопок*/
+
+.button {
+  position: absolute;
+  height: 38px;
+  top: 180px;
+  font-family: var(--primery-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button:hover {
+  background: #2196f3;
+}
+.button:focus {
+  background: #2196f3;
+}
+/*Вынесены частные стили кнопок*/
+
+.all {
+  width: 73px;
+  left: 495px;
+}
+
+.all-web {
+  width: 128px;
+  left: 576px;
+}
+.app {
+  width: 145px;
+  left: 712px;
+}
+.design {
+  width: 103px;
+  left: 865px;
+}
+
+.marketing {
+  width: 130px;
+  left: 976px;
+}
+
+/*Конец стилей кнопок*/
+
+/*Секция картинок*/
+
+.picture {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.notebook {
+  left: 215px;
+  top: 262px;
+}
+.basketball {
+  left: 615px;
+  top: 262px;
+}
+
+.r-logo {
+  left: 1015px;
+  top: 262px;
+}
+
+.headphones {
+  left: 215px;
+  top: 696px;
+}
+.p-boxes {
+  left: 615px;
+  top: 696px;
+}
+
+.mono {
+  left: 1015px;
+  top: 696px;
+}
+
+.book {
+  left: 215px;
+  top: 1130px;
+}
+.card {
+  left: 615px;
+  top: 1130px;
+}
+
+.w-note {
+  left: 1015px;
+  top: 1130px;
+}
+
+.heading-second > a {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.description {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+  color: #757575;
+}
+/*конец секции картинок*/
+
+/*Футер*/
+.footer-box {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  background: #2f303a;
+}
+
+.flogo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.flogo > span {
+  color: #ffffff;
+}
+.footer-contact {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  font-family: var(--primery-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.faddress {
+  top: 111px;
+  color: #ffffff;
+}
+.fmail {
+  top: 141px;
+}
+.ftel {
+  top: 171px;
+}
