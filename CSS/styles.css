@@ -89,14 +89,14 @@ a {
   text-transform: uppercase;
   color: #ffffff;
 }
-.heading-second {
+.portfolio-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-txt-color);
 }
-.heading-second-i {
+.heading-second {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -122,7 +122,7 @@ a {
   color: #757575;
 }
 
-.description {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -131,7 +131,7 @@ a {
 /*Конец вынесения стилей заголовков и подписей*/
 
 /*Вынесены стили абзацов*/
-.p-third {
+.text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
